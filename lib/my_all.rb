@@ -5,5 +5,6 @@ def my_all?(collection)
   new_values = []
   while (i < collection.length)
     new_values << yield(collection[i])
+    i += 1
   end
 end
